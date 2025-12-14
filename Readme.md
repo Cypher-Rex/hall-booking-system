@@ -4,7 +4,6 @@ A full-stack web application built as part of the Ascentech internship evaluatio
 The system allows users to manage hall bookings with complete CRUD functionality using a React frontend, Node.js backend, and PostgreSQL database.
 
 🚀 Tech Stack
-
 Frontend
 
 React (Vite)
@@ -72,11 +71,11 @@ DB_PORT=5432
 PORT=5000
 
 
-No credentials or server details are hardcoded in the source code.
+✅ No credentials or server details are hardcoded in the source code.
 
 ⚙️ Backend Setup
 
-Navigate to backend folder:
+Navigate to the backend folder:
 
 cd backend
 
@@ -97,7 +96,7 @@ http://localhost:5000
 
 🎨 Frontend Setup
 
-Navigate to frontend folder:
+Navigate to the frontend folder:
 
 cd frontend
 
@@ -126,7 +125,7 @@ DELETE	/api/bookings/:id	Delete booking
 
 Landing page displays all bookings in a table
 
-“Add New Booking” opens a form to create a booking
+Add New Booking opens a form to create a booking
 
 Each row has an Edit button
 
@@ -136,19 +135,22 @@ Users can update or delete the booking
 
 UI updates immediately after operations
 
-🎥 Loom Video
+🎥 Loom Video Walkthrough
 
-A Loom video has been added to the repository explaining:
+📌 Project Explanation Video:
+👉 https://www.loom.com/share/YOUR_LOOM_VIDEO_LINK_HERE
 
-Project setup
+The Loom video covers:
 
-Database schema
+Project overview and architecture
+
+Database schema and ORM usage
 
 Backend API implementation
 
-Frontend workflow
+Frontend workflow and validation
 
-Configuration and security decisions
+Environment variable handling and security decisions
 
 ✅ Notes
 
