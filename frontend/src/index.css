@@ -1,0 +1,114 @@
+/* Page base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Main wrapper centering */
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+/* App container */
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+button.danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Button row center */
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin: 20px auto;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f1f5f9;
+}
+
+/* Form container */
+.form-container {
+  background: white;
+  padding: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+/* Form layout */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Add button alignment */
+.add-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
