@@ -138,7 +138,7 @@ UI updates immediately after operations
 🎥 Loom Video Walkthrough
 
 📌 Project Explanation Video:
-👉 https://www.loom.com/share/YOUR_LOOM_VIDEO_LINK_HERE
+👉 
 
 The Loom video covers:
 
