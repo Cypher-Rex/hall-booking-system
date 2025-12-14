@@ -163,7 +163,3 @@ UI is intentionally kept simple to focus on functionality
 👨‍💻 Author
 
 Vineet Shinde
-
-🏁 Final Words
-
-This project demonstrates full-stack development skills, clean architecture, and secure configuration management, fulfilling all requirements of the Ascentech interview exercise.
